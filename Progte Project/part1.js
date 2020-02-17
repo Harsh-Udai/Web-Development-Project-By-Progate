@@ -1,0 +1,228 @@
+document.getElementById("bar2").onclick =function(){
+    document.getElementById("bigbox").style.display="block";
+    document.getElementById("bar2").onclick=function(){
+        document.getElementById("bigbox").style.display="none";
+    }
+}
+
+
+document.getElementById("Aopen_1").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_basic.asp");
+}
+
+document.getElementById("Aopen_2").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_attributes.asp");
+}
+
+document.getElementById("Aopen_3").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_headings.asp");
+}
+
+document.getElementById("Aopen_4").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_paragraphs.asp");
+}
+
+document.getElementById("Aopen_5").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_styles.asp");
+}
+
+document.getElementById("Aopen_6").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_colors.asp");
+}
+document.getElementById("Aopen_7").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_links.asp");
+}
+document.getElementById("Aopen_8").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_images.asp");
+}
+document.getElementById("Aopen_9").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_lists.asp");
+}
+document.getElementById("Aopen_10").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_classes.asp");
+}
+document.getElementById("Aopen_11").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_form_elements.asp");
+}
+document.getElementById("Aopen_12").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_form_input_types.asp");
+}
+document.getElementById("Aopen_13").onclick=function(){
+    window.open("https://www.w3schools.com/html/html_tables.asp");
+}
+document.getElementById("Aopen_14").onclick=function(){
+    window.open("https://www.w3schools.com/html/default.asp");
+}
+
+document.getElementById("open_11").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_intro.asp");
+}
+document.getElementById("open_22").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_syntax.asp");
+}
+document.getElementById("open_33").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_selectors.asp");
+}
+document.getElementById("open_44").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_colors.asp");
+}
+document.getElementById("open_55").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_background.asp");
+    window.open("https://www.w3schools.com/css/css_border.asp");
+}
+document.getElementById("open_66").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_margin.asp");
+    window.open("https://www.w3schools.com/css/css_padding.asp");
+}
+document.getElementById("open_77").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_boxmodel.asp");
+}
+document.getElementById("open_88").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_align.asp");
+}
+document.getElementById("open_99").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_image_transparency.asp");
+}
+document.getElementById("open_100").onclick=function(){
+    window.open("https://www.w3schools.com/css/css_pseudo_classes.asp");
+}
+document.getElementById("open_111").onclick=function(){
+    window.open("https://www.w3schools.com/css/css3_shadows.asp");
+}
+document.getElementById("open_122").onclick=function(){
+    window.open("https://www.w3schools.com/css/css3_flexbox.asp");
+}
+document.getElementById("open_133").onclick=function(){
+    window.open("https://www.w3schools.com/css/css3_animations.asp");
+}
+document.getElementById("open_144").onclick=function(){
+    window.open("https://www.w3schools.com/css/default.asp");
+}
+
+
+document.getElementById("link1").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_intro.asp");
+}
+document.getElementById("link2").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_output.asp");
+}
+document.getElementById("link3").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_variables.asp");
+}
+document.getElementById("link4").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_operators.asp");
+}
+document.getElementById("link5").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_datatypes.asp");
+}
+document.getElementById("link6").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_functions.asp");
+}
+document.getElementById("link7").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_objects.asp");
+}
+document.getElementById("link8").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_number_methods.asp");
+}
+document.getElementById("link9").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_arrays.asp");
+}
+document.getElementById("link10").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_if_else.asp");
+}
+document.getElementById("link11").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_booleans.asp");
+}
+document.getElementById("link12").onclick=function(){
+    window.open("https://www.w3schools.com/js/js_strings.asp");
+}
+document.getElementById("link13").onclick=function(){
+    window.open("https://www.w3schools.com/js/default.asp");
+}
+
+document.getElementById("py1").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_getstarted.asp");
+}
+document.getElementById("py2").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_syntax.asp");
+}
+document.getElementById("py3").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_variables.asp");
+}
+document.getElementById("py4").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_numbers.asp");
+}
+document.getElementById("py5").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_strings.asp");
+}
+document.getElementById("py6").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_booleans.asp");
+}
+document.getElementById("py7").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_sets.asp");
+}
+document.getElementById("py8").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_lists.asp");
+    window.open("https://www.w3schools.com/python/python_tuples.asp");
+}
+document.getElementById("py9").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_arrays.asp");
+    window.open("https://www.w3schools.com/python/python_for_loops.asp");
+}
+document.getElementById("py10").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_user_input.asp");
+}
+document.getElementById("py11").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_file_handling.asp");
+}
+document.getElementById("py12").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_string_formatting.asp");
+}
+document.getElementById("py13").onclick=function(){
+    window.open("https://www.w3schools.com/python/python_try_except.asp");
+}
+document.getElementById("py14").onclick=function(){
+    window.open("https://www.w3schools.com/python/default.asp");
+}
+
+
+document.getElementById("Aja1").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_getstarted.asp");
+}
+document.getElementById("Aja2").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_syntax.asp");
+}
+document.getElementById("Aja3").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_variables.asp");
+}
+document.getElementById("Aja4").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_operators.asp");
+}
+document.getElementById("Aja5").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_math.asp");
+}
+document.getElementById("Aja6").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_conditions.asp");
+}
+document.getElementById("Aja7").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_switch.asp");
+}
+document.getElementById("Aja8").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_oop.asp");
+}
+document.getElementById("Aja9").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_arrays.asp");
+}
+document.getElementById("Aja10").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_strings.asp");
+}
+document.getElementById("Aja11").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_break.asp");
+}
+document.getElementById("Aja12").onclick=function(){
+    window.open("https://www.w3schools.com/java/java_ref_string.asp");
+}
+document.getElementById("Aja13").onclick=function(){
+    window.open("https://www.w3schools.com/java/default.asp");
+}
+

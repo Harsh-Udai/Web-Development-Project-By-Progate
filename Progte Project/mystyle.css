@@ -1,0 +1,522 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #F2F2F2;
+}
+.mainlayer{
+    width: 1346px;
+    height: 1010px;
+    border: 1px solid ;
+    background: rgba(10, 0, 0, 0.7);
+    margin: auto;
+    position: absolute;
+    top: 0px;
+}
+.logo{
+    position: relative;
+    bottom: 1000px;
+    float: left;
+}
+.logo p{
+    float: right;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:30;
+}
+.barr{
+    position: relative;
+    float: left;
+    left:120px;
+}
+.bar{
+    position: absolute;
+    bottom: 990px;
+    left:750px;
+    width:100;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.bar2{
+    position: relative;
+    bottom: 990px;
+    left:850px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    width:100;
+}
+
+.bar1{
+    position: absolute;
+    bottom: 990px;
+    left:500px;
+    color: white;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 15px;
+    border: 1px solid #DF013A;
+    background:#DF013A;
+    padding:10px;
+    width: 180px;
+    margin-right: 10px;
+}
+
+.bar1:hover{
+    opacity: 80%;
+}
+@media(max-width: 1365px){
+    .logo{
+        position: absolute;
+        bottom: 450px;
+    }
+}
+@media(max-width:1365px){
+    .barr{
+        position: absolute;
+        bottom: -450px;
+        left:-200px;
+    }
+    .mainlayer{
+        width:100%;
+        height:0px;
+    }
+}
+@media(max-width:800px){
+    .container{
+        display: none;
+        
+    }
+    .message{
+        display: block;
+    }
+}
+.barred{
+    position: absolute;
+}
+#bigbox{
+    position: absolute;
+    bottom: 210px;
+    left:825px;
+    width: 500px;
+    height: 280px;
+    background: rgba(0, 127, 150, 0.199);
+    display: none;
+}
+.form-1 p{
+position: relative;
+bottom: -15px;
+color: white;
+font-size:20px;
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+}
+.form-1 input{
+position: relative;
+left:196px;
+bottom:-10px;
+color: white;
+width:250px;
+height:30px
+}
+.check{
+background: rgba(0, 127, 150, 0.199);;
+border-top-color: rgba(0, 127, 150, 0.199);
+border-left-color: rgba(0, 127, 150, 0.199);
+border-right-color: rgba(0, 127, 150, 0.199);
+}
+.form-2 p{
+position: relative;
+bottom: -10px;
+left:-10px;
+font-size:20px;
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+color: white;
+}
+.form-2 input{
+position: relative;
+left:196px;
+bottom:0px;
+color: white;
+width:250px;
+height:30px
+}
+.form-3{
+    position: relative;
+    left:200px;
+    bottom: -10px;
+    width: 70px;
+    height:30px;
+    background: rgba(10, 0, 0, 1.0);
+    color:white;
+    padding-right: 10px;
+}
+.cross{
+    position: relative;
+    bottom:180px;
+    left:390px;
+}
+#container{
+    position: absolute;
+}
+.center {
+    position: absolute;
+    left:200px;
+    bottom:170px;
+    font-size: 80px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    line-height: 30px;
+}
+.center-next {
+    position: absolute;
+    left:200px;
+    bottom:85px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    line-height: 30px;
+}
+.center-next1 {
+    position: absolute;
+    left:200px;
+    bottom:-140px;
+    font-size: 80px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    line-height: 30px;
+}
+.center-new {
+    position: absolute;
+    left:200px;
+    bottom:-280px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    line-height: 30px;
+}
+.landing{
+    width: 1000px;
+    height:500px;
+    position: relative;;
+    left:170px;
+    bottom:100px;
+    color: white;
+}
+.checker{
+    float:left;
+}
+.land-1{
+    width: 200px;
+    height:150px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    border-top: 2px solid black;
+}
+.one{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;;
+}
+.part1{
+    top:50px;
+    left:100px;
+}
+.part12{
+    left:170px;
+    bottom: 280px;
+}
+.part2{
+    top:50px;
+    left:400px;      
+}
+.part22{
+    left:480px;
+    bottom: 280px;
+}
+.part3{
+    top:50px;
+    left:700px;
+}
+.part33{
+    left:755px;
+    bottom: 280px;
+}
+.part4{
+    top:250px;
+    left:100px;
+}
+.part44{
+    left:170px;
+    bottom: 90px;
+}
+.part5{
+    top:250px;
+    left:400px;
+}
+.part55{
+    left:470px;
+    bottom: 85px;
+}
+.part6{
+    top:250px;
+    left:700px;
+}
+.part66{
+    left:10px;
+    bottom: 20px;
+}
+.htmlmain{
+    position: absolute;
+    left:145px;
+    box-shadow: 10px 10px #424242;
+}
+.htmlwork{
+    width:1130px;
+    height:500px;
+    background-color:rgba(10,0,0,0.3);
+    position: absolute;
+    bottom: 0px;
+    left:-50px;
+}
+.ptag{
+    font-size: 20px;
+    margin-left: 15px;
+    padding-top:80px;
+    color:white;
+    font-size: 30px;
+    line-height: 10px;
+    font-family: 'Acme', sans-serif;;
+}
+.html-part1{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:70px;
+    bottom: 370px;
+    font-family: 'Sriracha', cursive;
+}
+.html-part2{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:100px;
+    bottom:0px;
+    line-height: 10px;
+    font-family: 'Sriracha', cursive;
+}
+.html-part2:hover{
+    cursor: pointer;
+}
+.html-part3{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:800px;
+    bottom:200px;
+    line-height: 10px;
+    font-family: 'Sriracha', cursive;
+}
+.html-part3:hover{
+    cursor: pointer;
+}
+.html-part4{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:850px;
+    bottom:0px;
+    line-height: 10px;
+    font-family: 'Sriracha', cursive;
+}
+.html-part4:hover{
+    cursor: pointer;
+}
+.cssmain{
+    position: absolute;
+    left:145px;
+    bottom:-1100px;
+}
+.cssmain img{
+    width:1080px;
+    height:500px;
+    box-shadow: 10px 10px #424242;
+}
+.csswork{
+    width:1130px;
+    height:500px;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    left:-50px;
+}
+.css-part2{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:100px;
+    bottom:0px;
+    line-height: 10px;
+    font-family: 'Sriracha', cursive;
+}
+.css-part2:hover{
+    cursor: pointer;
+}
+.css-part3{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:800px;
+    bottom:200px;
+    line-height: 10px;
+    font-family: 'Sriracha', cursive;
+}
+.css-part3:hover{
+    cursor: pointer;
+}
+.css-part4{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:850px;
+    bottom:0px;
+    line-height: 10px;
+    font-family: 'Sriracha', cursive;
+}
+.css-part4:hover{
+    cursor: pointer;
+}
+.jsmain{
+    position: absolute;
+    left:145px;
+    border: 2px solid white;
+    bottom:-1700px;
+}
+.jsmain img{
+    width:1080px;
+    height:500px;
+    box-shadow: 10px 10px #424242;
+}
+.jswork{
+    width:1130px;
+    height:500px;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    left:-50px;
+}
+.js-part3{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:820px;
+    bottom:300px;
+    line-height: 10px;
+    font-family: 'Sriracha', cursive;
+}
+.js-part3:hover{
+    cursor: pointer;
+}
+.pymain{
+    position: absolute;
+    left:145px;
+    border: 2px solid white;
+    bottom:-2300px;
+}
+.pymain img{
+    width:1080px;
+    height:500px;
+    box-shadow: 10px 10px #424242;
+}
+.pywork{
+    width:1130px;
+    height:500px;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    left:-50px;
+}
+.javamain{
+    position: absolute;
+    left:145px;
+    border: 2px solid white;
+    bottom:-2900px;
+}
+.javamain img{
+    width:1080px;
+    height:500px;
+    box-shadow: 10px 10px #424242;
+}
+.javawork{
+    width:1130px;
+    height:500px;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    left:-50px;
+}
+.java-part3{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:800px;
+    bottom:250px;
+    line-height: 10px;
+    font-family: 'Sriracha', cursive;
+}
+.java-part3:hover{
+    cursor: pointer;
+}
+.bottom-part{
+    width:100%;
+    height:300px;
+    background-color: #F8E0F7;
+    background-image: url(rocket.png);
+    position:absolute;
+    bottom: -4300px;
+}
+.part p{
+    position: absolute;
+    left:220px;
+    bottom:150px;
+    font-family: 'Sriracha', cursive;
+    line-height: 20px;
+}
+.bottom-text{
+    position: absolute;
+    left:580px;
+    bottom: -3950px;
+    font-family: 'Sriracha', cursive;
+}
+.bottom-image{
+    position: absolute;
+    left:480px;
+    bottom: -3950px;
+}
+.game{
+    position: absolute;
+    bottom:80px;
+    left:500px;
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+}
+.fin{
+    position: absolute;
+    left:1100px;
+    bottom:100px;
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+}
+.fintext{
+    position: absolute;
+    left:1100px;
+    bottom:80px;
+    line-height: 15px;
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+}
+.finimg{
+    position: absolute;
+    left:1040px;
+    bottom:80px;
+}
